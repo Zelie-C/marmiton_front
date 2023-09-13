@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Marmitron</h1>
+
+      <section class="add-recipe-container">
+        <div>
+          <h3>nom</h3>
+          <input type="text" class="input-recipe" id="recipe-name" placeholder="Nom de la recette">
+        </div>
+        <div>
+          <h3>url de l'image</h3>
+          <input type="text" class="input-recipe" id="recipe-url-image" placeholder="URL de l'image de la recette">
+        </div>
+        <div>
+          <h3>durée</h3>
+          <input type="text" class="input-recipe" id="duration" placeholder="Temps de réalisation">
+        </div>
+        <div>
+          <h3>note</h3>
+          <input type="text" class="input-recipe" id="note" placeholder="Note">
+        </div>
+
+      </section>
+        <button id="submit-btn">Envoyer</button>
+
+
+       <section>
+        <h2>Mes recettes</h2>
+       </section>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
