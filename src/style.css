@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -5,14 +9,83 @@
 }
 
 .add-recipe-container {
+  border: 0.1em solid gray;
+  border-radius: 1em;
   width: 70%;
-  background-color: blueviolet;
+  padding: 1em;
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 2em 0em;
+}
+
+.form-element {
+  width:40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.2em;
+}
+
+label {
+  margin-bottom: 0.8em;
+  font-variant: small-caps;
 }
 
 .input-recipe {
+  width: 70%;
+  margin-bottom: 1em;
+  border-radius: 0.4em;
+}
+
+.submit-btn-container {
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+#submit-btn {
+  padding: 0.5em;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipes-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-container {
+  border: 0.1em solid rgba(128, 128, 128, 0.629);
+  border-radius: 1em;
+  width: 80%;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 2em 0em;
+}
+
+h3{
   width: 50%;
-  margin: 1em;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  aspect-ratio: 1/1;
+}
+
+.time {
+  margin: 2em 0em;
+  width: 50%;
+  text-align: center;
 }
